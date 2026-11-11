@@ -3,7 +3,7 @@
 **Name:** Chidi Okoli
 **Matric number:** 23120111043
 **Course:** CSC 419, Advances in Web, Mobile and Blockchain Development
-**Live URL:** (add your deployed link here)
+**Live URL:** (https://sga-30.github.io/portfolio/project.html)
 
 Plain HTML, CSS and JavaScript. Pages: `index.html` (About, Projects, Contact) and `project.html` (SIBAS case study).
 
