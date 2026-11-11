@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SIBAS case study | Chidi Okoli</title><meta name="description" content="Case study of SIBAS, a Student Information and Biometric Attendance System.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@800&family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css"><script>document.documentElement.className+=' js'</script></head>
+<body>
+<div class="tear top"></div>
+<div class="paper">
+<header>
+<p class="c small">*** CUSTOMER COPY ***</p>
+<h1>SIBAS</h1>
+<p class="c">RESULT REPORT<br>Student Information &amp; Biometric Attendance System</p>
+<nav aria-label="Main"><ul><li><a href="index.html#about">About</a></li><li><a href="index.html#results">Results</a></li><li><a href="index.html#projects">Items</a></li><li><a href="index.html#contact">Pay</a></li></ul></nav>
+</header>
+<hr class="cut">
+<main>
+<section><h2>Overview</h2>
+<p>SIBAS is a full-stack attendance management app I built for my database course (DTS304). Admins manage users, lecturers record attendance, and students check their own records. Everything is stored in a PostgreSQL database with 13 tables.</p></section>
+<section><h2>Problem solved</h2>
+<p>Paper attendance is slow to take, easy to fake and painful to total up at the end of the semester. SIBAS keeps attendance in one structured database, so reports come from queries instead of manual counting.</p></section>
+<section><h2>Features</h2>
+<div class="tablewrap"><table><thead><tr><th>FEATURE</th><th>STATUS</th></tr></thead><tbody>
+<tr><td>Admin, Lecturer and Student roles</td><td><span class="flag ok">DONE</span></td></tr>
+<tr><td>Manage Users admin page</td><td><span class="flag ok">DONE</span></td></tr>
+<tr><td>PDF export of attendance reports</td><td><span class="flag ok">DONE</span></td></tr>
+<tr><td>13-table relational schema (full DDL)</td><td><span class="flag ok">DONE</span></td></tr></tbody></table></div></section>
+<section><h2>Screenshots</h2>
+<figure class="shot" data-file="assets/sibas-1.png"><img src="assets/sibas-1.png" alt="SIBAS admin dashboard"></figure>
+<figure class="shot" data-file="assets/sibas-2.png"><img src="assets/sibas-2.png" alt="SIBAS lecturer attendance page"></figure>
+<figure class="shot" data-file="assets/sibas-3.png"><img src="assets/sibas-3.png" alt="SIBAS PDF report export"></figure></section>
+<section><h2>Technologies used</h2>
+<p>Python, Streamlit for the interface, PostgreSQL for storage, psycopg2 to connect the two, and ReportLab for PDF export.</p></section>
+<section><h2>What I learned</h2>
+<ul><li>Designing a schema that holds up across roles, courses and sessions</li><li>Connecting an app to a database, and debugging port and password mismatches</li><li>Auditing an incomplete codebase: restoring a missing schema file and finishing half-built features</li><li>Explaining where data lives and how the app reaches it, which I did in my project defence</li></ul>
+<p class="links"><a class="repo" data-repo="sibas" href="#">[ Source code ]</a></p>
+<a class="back" href="index.html#projects">&larr; Back to all items</a></section>
+</main>
+<hr class="cut">
+<footer><p class="c small">Chidi Okoli, Matric No. 23120111043<br>CSC 419, Pan-Atlantic University</p></footer>
+</div>
+<div class="tear bottom"></div>
+<div id="bar"></div><div id="toast" role="status" aria-live="polite"></div>
+<script src="script.js"></script></body></html>

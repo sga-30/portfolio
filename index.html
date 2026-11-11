@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chidi Okoli | Computer Science student</title><meta name="description" content="Portfolio of Chidi Okoli, a Computer Science student building database-backed apps.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@800&family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css"><script>document.documentElement.className+=' js'</script></head>
+<body>
+<div class="tear top"></div>
+<div class="paper">
+<header>
+<p class="c small">*** CUSTOMER COPY ***</p>
+<h1>Chidi Okoli</h1>
+<p class="c">Records kept straight.<br>Database-backed apps by a CS student</p>
+<nav aria-label="Main"><ul><li><a href="index.html#about">About</a></li><li><a href="index.html#results">Results</a></li><li><a href="index.html#projects">Items</a></li><li><a href="index.html#contact">Pay</a></li></ul></nav>
+</header>
+<hr class="cut">
+<main>
+<section id="about"><h2>About me</h2>
+<p class="row"><span>NAME</span><i></i><b>Chidi Okoli</b></p>
+<p class="row"><span>SCHOOL</span><i></i><b>Pan-Atlantic University</b></p>
+<p class="row"><span>LEVEL</span><i></i><b>400, Computer Science</b></p>
+<p class="row"><span>FOCUS</span><i></i><b>Databases, Java, Python</b></p>
+<p>I'm a Computer Science student. Most of what I build sits on a relational database, and I like getting the schema right before I draw a single screen.</p>
+<p>My coursework covers databases, object-oriented programming, AI, formal methods, networks and entrepreneurship. So far I've shipped two JavaFX desktop apps and one Python web app, all backed by PostgreSQL.</p></section>
+<section id="results"><h2>Lab results</h2>
+<div class="tablewrap"><table><thead><tr><th>TEST</th><th>USED IN</th><th>FLAG</th></tr></thead><tbody>
+<tr><td>PostgreSQL</td><td>3 of 3 projects</td><td><span class="flag hi">HIGH</span></td></tr>
+<tr><td>Java / JavaFX</td><td>2 of 3 projects</td><td><span class="flag hi">HIGH</span></td></tr>
+<tr><td>Python</td><td>1 of 3 projects</td><td><span class="flag ok">NORMAL</span></td></tr>
+<tr><td>BCrypt auth</td><td>2 of 3 projects</td><td><span class="flag ok">NORMAL</span></td></tr>
+<tr><td>Curiosity</td><td>always</td><td><span class="flag hi">HIGH</span></td></tr></tbody></table></div></section>
+<section id="projects"><h2>Items ordered</h2>
+<article class="item a1"><p class="row"><b>01</b><span>SIBAS</span><i></i><span>DTS304</span></p>
+<figure class="shot" data-file="assets/sibas-1.png"><img src="assets/sibas-1.png" alt="SIBAS dashboard"></figure>
+<p>Student Information &amp; Biometric Attendance System. A full-stack attendance app with separate Admin, Lecturer and Student views.</p>
+<p class="small">STACK: Python, Streamlit, PostgreSQL, psycopg2, ReportLab</p>
+<p class="links"><a href="project.html">[ Read case study ]</a><a class="repo" data-repo="sibas" href="#">[ Source ]</a></p></article>
+<article class="item a2"><p class="row"><b>02</b><span>CAFETERIA MANAGEMENT</span><i></i><span>CSC310</span></p>
+<figure class="shot" data-file="assets/cafeteria-1.png"><img src="assets/cafeteria-1.png" alt="Cafeteria Management System menu screen"></figure>
+<p>A JavaFX desktop app for ordering and running a cafeteria, with a cart, order tracking and a manager area behind a login.</p>
+<p class="small">STACK: Java, JavaFX, PostgreSQL, BCrypt</p>
+<p class="links"><a class="repo" data-repo="cafeteria-app" href="#">[ Source ]</a></p></article>
+<article class="item a3"><p class="row"><b>03</b><span>SANTE DIAGNOSTICS LIMS</span><i></i><span>CSC310</span></p>
+<figure class="shot" data-file="assets/lims-1.png"><img src="assets/lims-1.png" alt="Sante Diagnostics LIMS result upload screen"></figure>
+<p>A lab management desktop app for a diagnostic laboratory, with a custom test builder and result upload. Built with Catherine, who designed the screens.</p>
+<p class="small">STACK: Java, JavaFX, Supabase PostgreSQL, Jakarta Mail, BCrypt, Jackson</p>
+<p class="links"><a class="repo" data-repo="sante-lims" href="#">[ Source ]</a></p></article>
+<p class="row"><span>ITEMS</span><i></i><b data-count="3">3</b></p><p class="row"><span>REFUNDS</span><i></i><b>0</b></p>
+<span class="stamp">DELIVERED</span></section>
+<section id="contact"><h2>Pay here</h2>
+<p class="c">Accepted: internships, projects and good conversation.</p>
+<a class="btn" id="mail" href="mailto:okoli.chidi01@gmail.com?subject=Hello%20Chidi">Hire me: email</a>
+<div class="btnrow"><a class="btn alt" target="_blank" rel="noopener" href="https://mail.google.com/mail/?view=cm&amp;to=okoli.chidi01@gmail.com&amp;su=Hello%20Chidi">Open in Gmail</a><button class="btn alt" type="button" id="copy" data-copy="okoli.chidi01@gmail.com">Copy email</button></div>
+<div class="barcode" aria-hidden="true"></div><p class="c small">THANK YOU, COME AGAIN</p></section>
+</main>
+<hr class="cut">
+<footer><p class="c small">Chidi Okoli, Matric No. 23120111043<br>CSC 419, Pan-Atlantic University</p></footer>
+</div>
+<div class="tear bottom"></div>
+<div id="bar"></div><div id="toast" role="status" aria-live="polite"></div>
+<script src="script.js"></script></body></html>
