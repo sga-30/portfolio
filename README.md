@@ -1,6 +1,6 @@
 # Personal Portfolio Website
 
-**Name:** Chidi Okoli
+**Name:** Chidiebere Okoli
 **Matric number:** 23120111043
 **Course:** CSC 419, Advances in Web, Mobile and Blockchain Development
 **Live URL:** (https://sga-30.github.io/portfolio/project.html)
