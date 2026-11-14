@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Chidiebere Okoli | Computer Science student</title><meta name="description" content="Portfolio of Chidi Okoli, a Computer Science student building database-backed apps.">
+<title>Chidi Okoli | Computer Science student</title><meta name="description" content="Portfolio of Chidi Okoli, a Computer Science student building database-backed apps.">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@800&family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css"><script>document.documentElement.className+=' js'</script></head>
 <body>
@@ -8,34 +8,36 @@
 <div class="paper">
 <header>
 <p class="c small">*** CUSTOMER COPY ***</p>
-<h1>Chidiebere Okoli</h1>
+<h1>Chidi Okoli</h1>
 <p class="c">Records kept straight.<br>Database-backed apps by a CS student</p>
 <nav aria-label="Main"><ul><li><a href="index.html#about">About</a></li><li><a href="index.html#results">Results</a></li><li><a href="index.html#projects">Items</a></li><li><a href="index.html#contact">Pay</a></li></ul></nav>
 </header>
 <hr class="cut">
 <main>
 <section id="about"><h2>About me</h2>
-<p class="row"><span>NAME</span><i></i><b>Chidiebere Okoli</b></p>
+<figure class="me"><img src="assets/me.jpg" alt="Photo of Chidi Okoli"></figure>
+<p class="row"><span>NAME</span><i></i><b>Chidi Okoli</b></p>
 <p class="row"><span>SCHOOL</span><i></i><b>Pan-Atlantic University</b></p>
 <p class="row"><span>LEVEL</span><i></i><b>400, Computer Science</b></p>
-<p class="row"><span>FOCUS</span><i></i><b>Databases, Java, Python</b></p>
+<p class="row"><span>FOCUS</span><i></i><b>Databases, Java, TypeScript</b></p>
 <p>I'm a Computer Science student. Most of what I build sits on a relational database, and I like getting the schema right before I draw a single screen.</p>
-<p>My coursework covers databases, object-oriented programming, AI, formal methods, networks and entrepreneurship. So far I've shipped two JavaFX desktop apps and one Python web app, all backed by PostgreSQL.</p></section>
+<p>My coursework covers databases, object-oriented programming, AI, formal methods, networks and entrepreneurship. So far I've built two JavaFX desktop apps backed by PostgreSQL, plus a React front-end clone of Midday.</p></section>
 <section id="results"><h2>Lab results</h2>
 <div class="tablewrap"><table><thead><tr><th>TEST</th><th>USED IN</th><th>FLAG</th></tr></thead><tbody>
-<tr><td>PostgreSQL</td><td>3 of 3 projects</td><td><span class="flag hi">HIGH</span></td></tr>
+<tr><td>PostgreSQL</td><td>2 of 3 projects</td><td><span class="flag hi">HIGH</span></td></tr>
 <tr><td>Java / JavaFX</td><td>2 of 3 projects</td><td><span class="flag hi">HIGH</span></td></tr>
-<tr><td>Python</td><td>1 of 3 projects</td><td><span class="flag ok">NORMAL</span></td></tr>
+<tr><td>TypeScript / React</td><td>1 of 3 projects</td><td><span class="flag ok">NORMAL</span></td></tr>
 <tr><td>BCrypt auth</td><td>2 of 3 projects</td><td><span class="flag ok">NORMAL</span></td></tr>
 <tr><td>Curiosity</td><td>always</td><td><span class="flag hi">HIGH</span></td></tr></tbody></table></div></section>
 <section id="projects"><h2>Items ordered</h2>
-<article class="item a1"><p class="row"><b>01</b><span>SIBAS</span><i></i><span>DTS304</span></p>
-<figure class="shot" data-file="assets/sibas-1.png"><img src="assets/sibas-1.png" alt="SIBAS dashboard"></figure>
-<p>Student Information &amp; Biometric Attendance System. A full-stack attendance app with separate Admin, Lecturer and Student views.</p>
-<p class="small">STACK: Python, Streamlit, PostgreSQL, psycopg2, ReportLab</p>
-<p class="links"><a href="project.html">[ Read case study ]</a><a href="https://github.com/sga-30/sibas" target="_blank" rel="noopener">[ Source ]</a></p></article>
+<article class="item a1"><p class="row"><b>01</b><span>MIDDAY.AI CLONE</span><i></i><span>FRONT-END</span></p>
+<figure class="shot" data-file="assets/midday-home.png"><img src="assets/midday-home.png" alt="Midday clone home page"></figure>
+<p>A front-end clone of Midday, the business tool for freelancers that brings time tracking and invoicing into one place. It recreates the Home, Invoice, Story and Pricing pages as a static UI with no backend. Built with v0, Vercel's AI app builder, and deployed on Vercel.</p>
+<p class="small">STACK: TypeScript, React, HTML (built with v0)<br>CREDIT: original design by Midday (<a href="https://midday.ai/" target="_blank" rel="noopener">midday.ai</a>)</p>
+<p class="links"><a href="project.html">[ Read case study ]</a><a href="https://github.com/sga-30/Midday.ai" target="_blank" rel="noopener">[ Source ]</a><a href="https://v0-midday-ai-clone.vercel.app/" target="_blank" rel="noopener">[ Live site ]</a></p></article>
 <article class="item a2"><p class="row"><b>02</b><span>CAFETERIA MANAGEMENT</span><i></i><span>CSC310</span></p>
-<figure class="shot" data-file="assets/cafeteria-1.png"><img src="assets/cafeteria-1.png" alt="Cafeteria Management System menu screen"></figure>
+<figure class="shot" data-file="assets/cafeteria-1.png"><img src="assets/cafeteria-1.png" alt="Cafeteria Management System screen 1"></figure>
+<figure class="shot opt"><img src="assets/cafeteria-2.png" alt="Cafeteria Management System screen 2"></figure>
 <p>A JavaFX desktop app for ordering and running a cafeteria, with a cart, order tracking and a manager area behind a login.</p>
 <p class="small">STACK: Java, JavaFX, PostgreSQL, BCrypt</p>
 <p class="links"><a href="https://github.com/sga-30/cafeteria-app" target="_blank" rel="noopener">[ Source ]</a></p></article>
@@ -53,7 +55,7 @@
 <div class="barcode" aria-hidden="true"></div><p class="c small">THANK YOU, COME AGAIN</p></section>
 </main>
 <hr class="cut">
-<footer><p class="c small">Chidiebere Okoli, Matric No. 23120111043<br>CSC 419, Pan-Atlantic University</p></footer>
+<footer><p class="c small">Chidi Okoli, Matric No. 23120111043<br>CSC 419, Pan-Atlantic University</p></footer>
 </div>
 <div class="tear bottom"></div>
 <aside class="side left" aria-hidden="true"><div class="sticker s1">NOW SERVING<b>419</b>CSC 419 portfolio</div><div class="sticker s2">TABLE 3<br>WI-FI: curiosity<br>OPEN: always</div></aside>
