@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>SIBAS case study | Chidiebere Okoli</title><meta name="description" content="Case study of SIBAS, a Student Information and Biometric Attendance System.">
+<title>Midday.ai clone case study | Chidiebere Okoli</title><meta name="description" content="Case study of a front-end clone of Midday, built with TypeScript and React.">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@800&family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css"><script>document.documentElement.className+=' js'</script></head>
 <body>
@@ -8,31 +8,35 @@
 <div class="paper">
 <header>
 <p class="c small">*** CUSTOMER COPY ***</p>
-<h1>SIBAS</h1>
-<p class="c">RESULT REPORT<br>Student Information &amp; Biometric Attendance System</p>
+<h1>Midday.ai clone</h1>
+<p class="c">RESULT REPORT<br>Front-end clone of Midday</p>
 <nav aria-label="Main"><ul><li><a href="index.html#about">About</a></li><li><a href="index.html#results">Results</a></li><li><a href="index.html#projects">Items</a></li><li><a href="index.html#contact">Pay</a></li></ul></nav>
 </header>
 <hr class="cut">
 <main>
 <section><h2>Overview</h2>
-<p>SIBAS is a full-stack attendance management app I built for my database course (DTS304). Admins manage users, lecturers record attendance, and students check their own records. Everything is stored in a PostgreSQL database with 13 tables.</p></section>
+<p>This is my front-end clone of Midday, a business tool for freelancers and small businesses. I built a clone of four of its pages, Home, Invoice, Story and Pricing, as a static interface using React and TypeScript. I made it with v0, Vercel's AI app builder, and deployed it on Vercel. It has no backend, so nothing is saved or sent.</p></section>
 <section><h2>Problem solved</h2>
-<p>Paper attendance is slow to take, easy to fake and painful to total up at the end of the semester. SIBAS keeps attendance in one structured database, so reports come from queries instead of manual counting.</p></section>
+<p>Running a business involves big tasks such as tracking time and sending invoices, and these are usually scattered across different platforms. Midday brings them into one place. My clone recreates how that product presents this to its users. My own goal was to practise building and deploying a production-style interface quickly with an AI app builder.</p></section>
 <section><h2>Features</h2>
 <div class="tablewrap"><table><thead><tr><th>FEATURE</th><th>STATUS</th></tr></thead><tbody>
-<tr><td>Admin, Lecturer and Student roles</td><td><span class="flag ok">DONE</span></td></tr>
-<tr><td>Manage Users admin page</td><td><span class="flag ok">DONE</span></td></tr>
-<tr><td>PDF export of attendance reports</td><td><span class="flag ok">DONE</span></td></tr>
-<tr><td>13-table relational schema (full DDL)</td><td><span class="flag ok">DONE</span></td></tr></tbody></table></div></section>
+<tr><td>Home page</td><td><span class="flag ok">DONE</span></td></tr>
+<tr><td>Invoice page</td><td><span class="flag ok">DONE</span></td></tr>
+<tr><td>Story page</td><td><span class="flag ok">DONE</span></td></tr>
+<tr><td>Pricing page</td><td><span class="flag ok">DONE</span></td></tr>
+<tr><td>Backend and data storage</td><td><span class="flag">NOT INCLUDED</span></td></tr></tbody></table></div></section>
 <section><h2>Screenshots</h2>
-<figure class="shot" data-file="assets/sibas-1.png"><img src="assets/sibas-1.png" alt="SIBAS admin dashboard"></figure>
-<figure class="shot" data-file="assets/sibas-2.png"><img src="assets/sibas-2.png" alt="SIBAS lecturer attendance page"></figure>
-<figure class="shot" data-file="assets/sibas-3.png"><img src="assets/sibas-3.png" alt="SIBAS PDF report export"></figure></section>
+<figure class="shot" data-file="assets/midday-home.png"><img src="assets/midday-home.png" alt="Midday clone home page"></figure>
+<figure class="shot" data-file="assets/midday-invoice.png"><img src="assets/midday-invoice.png" alt="Midday clone invoice page"></figure>
+<figure class="shot" data-file="assets/midday-story.png"><img src="assets/midday-story.png" alt="Midday clone story page"></figure>
+<figure class="shot" data-file="assets/midday-pricing.png"><img src="assets/midday-pricing.png" alt="Midday clone pricing page"></figure></section>
 <section><h2>Technologies used</h2>
-<p>Python, Streamlit for the interface, PostgreSQL for storage, psycopg2 to connect the two, and ReportLab for PDF export.</p></section>
+<p>TypeScript, React and HTML, generated with v0 (Vercel's AI app builder) and deployed on Vercel.</p></section>
 <section><h2>What I learned</h2>
-<ul><li>Designing a schema that holds up across roles, courses and sessions</li><li>Connecting an app to a database, and debugging port and password mismatches</li><li>Auditing an incomplete codebase: restoring a missing schema file and finishing half-built features</li><li>Explaining where data lives and how the app reaches it, which I did in my project defence</li></ul>
-<p class="links"><a href="https://github.com/sga-30/sibas" target="_blank" rel="noopener">[ Source code ]</a></p>
+<ul><li>Using an AI app builder (v0) to produce a React and TypeScript interface from prompts</li><li>Refining a generated design until it matches a real product</li><li>Deploying a front-end project on Vercel</li><li>The difference between a front-end UI and a full product: this clone is static, with no backend</li></ul></section>
+<section><h2>Credit</h2>
+<p>Midday is created by the Midday team. This is a learning clone of its interface, not affiliated with them. Original: <a href="https://midday.ai/" target="_blank" rel="noopener">midday.ai</a>.</p>
+<p class="links"><a href="https://github.com/sga-30/Midday.ai" target="_blank" rel="noopener">[ Source code ]</a><a href="https://v0-midday-ai-clone.vercel.app/" target="_blank" rel="noopener">[ Live site ]</a></p>
 <a class="back" href="index.html#projects">&larr; Back to all items</a></section>
 </main>
 <hr class="cut">
