@@ -5,7 +5,7 @@
 **Course:** CSC 419, Advances in Web, Mobile and Blockchain Development
 **Live URL:** (https://sga-30.github.io/portfolio/project.html)
 
-Plain HTML, CSS and JavaScript. Pages: `index.html` (About, Projects, Contact) and `project.html` (SIBAS case study).
+Plain HTML, CSS and JavaScript. Pages: `index.html` (About, Projects, Contact) and `project.html` (Midday-ai case study).
 
 ## Run locally
 Open `index.html` in a browser.
