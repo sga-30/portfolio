@@ -11,7 +11,7 @@
 
   // Source links: point to GitHub, or explain what is missing.
   document.querySelectorAll("a.repo").forEach(function (a) {
-    if (GITHUB_USER === "sga-30") {
+    if (GITHUB_USER === "YOUR-USERNAME") {
       a.addEventListener("click", function (e) { e.preventDefault(); toast("Set GITHUB_USER in script.js first"); });
     } else {
       a.href = "https://github.com/" + GITHUB_USER + "/" + REPOS[a.dataset.repo];
@@ -36,6 +36,20 @@
     function miss() { img.parentElement.classList.add("missing"); }
     img.addEventListener("error", miss);
     if (img.complete && !img.naturalWidth) miss();
+  });
+
+  // Hide the photo slot until me.jpg exists.
+  document.querySelectorAll(".me img").forEach(function (img) {
+    function gone() { img.parentElement.hidden = true; }
+    img.addEventListener("error", gone);
+    if (img.complete && !img.naturalWidth) gone();
+  });
+
+  // Optional extra screenshot: hide it if the file does not exist.
+  document.querySelectorAll(".shot.opt img").forEach(function (img) {
+    function gone() { img.parentElement.hidden = true; }
+    img.addEventListener("error", gone);
+    if (img.complete && !img.naturalWidth) gone();
   });
 
   // Scroll progress bar.
